@@ -8,7 +8,9 @@ permissions:
   contents: read
   pull-requests: read
   issues: read
-engine: copilot
+engine:
+  id: copilot
+  model: gpt-4o
 tools:
   edit:
   web-fetch:
