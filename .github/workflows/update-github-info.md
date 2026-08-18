@@ -19,6 +19,7 @@ network:
     - defaults
     - github.com
     - github.blog
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     title-prefix: "[github-info] "
@@ -35,7 +36,8 @@ Update the GitHub information page and open a pull request for Mona to review.
 1. Read notes/mona-notes.md first.
 2. Use web-fetch to read https://github.blog/latest/.
 3. Use web-fetch to read https://github.blog/changelog/.
-4. Read repository guidance and reference files with GitHub repository API tools (not terminal, CLI, or sandboxed shell commands).
+4. Use web-fetch to read https://awesome-copilot.github.com/workflows/.
+5. Read repository guidance and reference files with GitHub repository API tools (not terminal, CLI, or sandboxed shell commands).
 
 ## Update Task
 
@@ -48,4 +50,4 @@ Update the GitHub information page and open a pull request for Mona to review.
 1. Do not write directly to main.
 2. Use the safe output create-pull-request to propose the change.
 3. In the PR title or body, clearly indicate it is for Mona to review.
-4. Include a short summary of what changed and source URLs used.
+4. Include a short summary of what changed and source URLs used, including https://awesome-copilot.github.com/workflows/.
